@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+
+# Arquivos temporários
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Diretório de build
+/build/
+
+# Dependências locais
+/.env
+/.env.test
+
+# Arquivos de configuração
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs e saída de teste
+/logs/
+/results/
+/test-results/
+
+# Yarn
+yarn-error.log
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Dependências de projeto específicas
+pnpm-lock.yaml
