@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Usuário</title>
+</head>
+<body>
+    <h1>Adicionar Usuário</h1>
+    <form action="/users/save" method="POST">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite um nome" required>
+        </div>
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" id="age" name="age" placeholder="Digite uma idade" required>
+        </div>
+        <div>
+            <input type="submit" value="Cadastrar">
+        </div>
+    </form>
+</body>
+</html>
