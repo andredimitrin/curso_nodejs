@@ -1,0 +1,81 @@
+/* Apply Helvetica font to all elements */
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Center align all headings */
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray color for headings */
+}
+
+/* Style for the form container */
+.form {
+    width: 450px; /* Set the width of the form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for form controls (inputs, selects, textareas) */
+.form-control {
+    margin-bottom: 20px; /* Add space between form controls */
+}
+
+/* Style for labels within form controls */
+.form-control label {
+    display: block; /* Ensure labels are on their own line */
+    font-weight: bold; /* Make labels bold */
+    margin-bottom: 8px; /* Add spacing below labels */
+}
+
+/* Style for input fields within form controls */
+.form-control input {
+    width: 100%; /* Take up full width of parent container */
+    padding: 10px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Add a light gray border */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/* Style for submit button */
+.form-control input[type="submit"] {
+    background-color: #007bff; /* Blue color for button background */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Add rounded corners */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Change button background color on hover */
+.form-control input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the container for books */
+.books-container {
+    margin-top: 20px;
+}
+
+/* Style for individual book entries */
+.books-container div {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add a light gray border */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/* Style for the book title */
+.books-container div .bold {
+    font-weight: bold;
+}

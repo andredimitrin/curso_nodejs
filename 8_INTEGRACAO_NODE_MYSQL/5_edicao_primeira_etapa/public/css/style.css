@@ -1,0 +1,191 @@
+/* Apply Helvetica font to all elements */
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+#navbar {
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;
+    /* Light gray background color */
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* Centralize os itens da navegação */
+}
+
+#navbar ul li {
+    margin: 0 1em;
+    /* Espaçamento uniforme entre os itens */
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    /* Remove o sublinhado padrão */
+    color: #333;
+    /* Cor do texto */
+    transition: color 0.3s ease;
+    /* Transição suave */
+}
+
+#navbar ul li a:hover {
+    color: #9b7c7c;
+    /* Cor do texto no hover */
+}
+
+/* Center align all headings */
+h1 {
+    text-align: center;
+    color: #333;
+    /* Dark gray color for headings */
+}
+
+/* Style for the form container */
+.form {
+    width: 450px;
+    /* Set the width of the form */
+    margin: 0 auto;
+    /* Center the form horizontally */
+    background-color: #f9f9f9;
+    /* Light gray background color */
+    padding: 20px;
+    /* Add some padding for spacing */
+    border-radius: 8px;
+    /* Add rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+}
+
+/* Style for form controls (inputs, selects, textareas) */
+.form-control {
+    margin-bottom: 20px;
+    /* Add space between form controls */
+}
+
+/* Style for labels within form controls */
+.form-control label {
+    display: block;
+    /* Ensure labels are on their own line */
+    font-weight: bold;
+    /* Make labels bold */
+    margin-bottom: 8px;
+    /* Add spacing below labels */
+}
+
+/* Style for input fields within form controls */
+.form-control input {
+    width: 100%;
+    /* Take up full width of parent container */
+    padding: 10px;
+    /* Add padding to input fields */
+    border: 1px solid #ccc;
+    /* Add a light gray border */
+    border-radius: 4px;
+    /* Add rounded corners */
+}
+
+/* Style for submit button */
+.form input[type="submit"] {
+    background-color: #5c6268;
+    /* Blue color for button background */
+    color: #fff;
+    /* White text color */
+    border: none;
+    /* Remove default border */
+    border-radius: 4px;
+    /* Add rounded corners */
+    padding: 10px 20px;
+    /* Add padding */
+    cursor: pointer;
+    /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color */
+    font-size: 16px;
+    /* Font size */
+    text-transform: uppercase;
+    /* Transform text to uppercase */
+}
+
+/* Change button background color on hover */
+.form input[type="submit"]:hover {
+    background-color: #85898d;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the book page */
+#book-page {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+#book-page a {
+    color: #9b7c7c;
+    /* Cor do texto dos links */
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.container {
+    background-color: #f9f9f9;
+    /* Light gray background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.container p {
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Style for the books container */
+.books-container {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.books-container a {
+    background-color: #5c6268;
+    /* Blue color for button background */
+    color: #fff;
+    /* White text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.books-container a:hover {
+    background-color: #85898d;
+}
+
+.books-container div {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.books-container div .bold {
+    font-weight: bold;
+    color: #333;
+}
