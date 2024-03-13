@@ -1,0 +1,107 @@
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#navbar {
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #f9f9f9;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 1em;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    color: #9b7c7c;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form {
+    width: 450px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: flex;
+    justify-content: space-between; /* Posiciona o conteúdo em ambos os lados */
+    align-items: center; /* Alinha verticalmente */
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-checkbox input {
+    margin-left: 5px; /* Ajusta o espaçamento à esquerda do checkbox */
+    margin-right: 10px; /* Ajusta o espaçamento à direita do checkbox */
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form input[type="submit"] {
+    background-color: #5c6268;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #85898d;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.container p {
+    color: #555;
+    margin-top: 10px;
+}
