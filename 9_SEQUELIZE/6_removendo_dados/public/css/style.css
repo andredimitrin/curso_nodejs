@@ -1,0 +1,163 @@
+/* Define o estilo padrão para todos os elementos */
+* {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilo da barra de navegação */
+#navbar {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#navbar ul li {
+    margin: 0 1em;
+}
+
+#navbar ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    color: #9b7c7c;
+}
+
+/* Estilos para títulos */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* Estilos para o formulário */
+.form {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 20px;
+    width: 450px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.form-checkbox input {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.form-control input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form input[type="submit"] {
+    background-color: #5c6268;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #85898d;
+}
+
+/* Estilos para o conteúdo da página */
+.container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.container .item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    flex: 1 1 29%;
+    max-width: 29%;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center; /* Adicionado para centralizar o texto */
+}
+
+.container h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+.container p {
+    color: #555;
+    margin-top: 10px;
+}
+
+.item h2,
+.item p {
+    margin-bottom: .8em;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actions a,
+.actions input {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-detail {
+    background-color: #5c6268;
+    border: 2px solid #5c6268;
+}
+
+.btn-delete {
+    background-color: #ff5757;
+    border: 2px solid #ff5757;
+    cursor: pointer;    
+}
+
+.actions a:hover,
+.actions input:hover {
+    opacity: 0.8;
+}
